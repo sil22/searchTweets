@@ -82,19 +82,22 @@ footer{
 	margin: 0px;
 }
 
-.image {
-	border: 1px solid #CCC;
-	padding: 5px;
-	background: #f5f5f5;
-	width: 200px;
-	box-shadow: 1px 2px 2px #CCC;
-	-webkit-box-shadow: 1px 2px 2px #CCC;
-	-moz-box-shadow: 1px 2px 2px #CCC;
-	-ms-box-shadow: 1px 2px 2px #CCC;
+.card{
+	margin: 3%;
 }
 
-.imageGrid {
-	display: inline-block;
+.page-link {
+	color: #605b59 !important;
+}
+
+.like {
+	margin-right: 5%;
+	margin-top: 0px;
+}
+
+.card-body {
+	height: 3% !important;
+	padding: 0;
 }
 
 .gridContainer {
