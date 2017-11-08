@@ -12,15 +12,106 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    
+    <!-- Just an image -->
     <nav class="navbar navbar-light bg-light">
       <a class="navbar-brand" href="#">
         <img src="images/hashtag_icon.png" class="img-responsive icon d-inline-block align-top"  alt="">
       </a>
-      <h3>Fotos</h3>
-      <button class="btn btn-secondary help" type="button" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-question" aria-hidden="true"></i></button>
+      <div class="container containerNav">
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Fotos</h3>
+          </div>
+        </div>
+      </div>
+      <div class="">
+        <button class=" btn btn-secondary help" type="button" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-question" aria-hidden="true"></i></button>
+      </div>
     </nav>
+
+
+    <div class="container">
+   <div class="row justify-content-md-center">
+    <div class="col col-lg-2">
+      <i class="fa fa-th-large icon-table" aria-hidden="true"></i>
+    </div>
+    <div class="col col-lg-6">
+      <div class="input-group search-bar">
+        <input id="tweet-search" type="text" class="form-control" placeholder="# Busca tu tweet..">
+        <span class="input-group-btn">
+          <button class="btn btn-secondary" type="button" id="tweet"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </span>
+      </div>
+     </div>
+     </div>
+     </div>
+
+     <div class="container gridContainer">
+       <div class="row">
+
+         <article class="imageGrid col-sm-6 col-md-4">
+           <div class="thumbnail panel panel-default">
+             <!-- <img src="images/image3.jpg" onmouseover="this.width=350;this.height=350;" onmouseout="this.width=250;this.height=250;" width="250" height="250" alt="" /> -->
+
+             <img class="image" src="images/image3.jpg" alt="...">
+           </div>
+           <div class="panel-footer">
+             <div class="caption">
+               <h3>3.060</h3>
+             </div>
+           </div>
+         </article>
+
+         <div class="imageGrid col-sm-6 col-md-4">
+           <div class="thumbnail">
+             <img class="image" src="images/image.jpg" alt="...">
+             <div class="caption">
+               <h3>3.060</h3>
+             </div>
+           </div>
+         </div>
+
+         <div class="imageGrid col-sm-6 col-md-4">
+           <div class="thumbnail">
+             <img class="image" src="images/image2.jpg" alt="...">
+             <div class="caption">
+               <h3>3.060</h3>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="row">
+         <div class="imageGrid col-sm-6 col-md-4">
+           <div class="thumbnail">
+             <img class="image" src="images/image4.jpg" alt="...">
+             <div class="caption">
+               <h3>3.060</h3>
+             </div>
+           </div>
+         </div>
+
+         <div class="imageGrid col-sm-6 col-md-4">
+           <div class="thumbnail">
+             <img class="image" src="images/image5.jpg" alt="...">
+             <div class="caption">
+               <h3>3.060</h3>
+             </div>
+           </div>
+         </div>
+
+         <div class="imageGrid col-sm-6 col-md-4">
+           <div class="thumbnail">
+             <img class="image" src="images/image6.jpg" alt="...">
+             <div class="caption">
+               <h3>3.060</h3>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+
   </body>
+
   <footer>
     <p>Interfaces - Silvina Muñoz | Eugenia Zelenka</p>
   </footer>
